@@ -15,7 +15,10 @@ export default function UserGrid({ users, onLike, onEdit, onDelete }) {
     <Row gutter={[16, 16]}>
       {users.map((u) => {
         // DiceBear Avataaars (v2 for exact match to your screenshot)
-        const avatarUrl = `https://api.dicebear.com/6.x/avataaars/svg?seed=${encodeURIComponent(user.username)}&mood=happy`;
+        const avatar = `https://avatars.dicebear.com/v2/avataaars/${encodeURIComponent(
+          u.username
+        )}.svg?options[mood][]=happy`;
+
 
         return (
           <Col
