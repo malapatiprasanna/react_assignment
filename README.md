@@ -17,8 +17,20 @@ The focus of this assignment is to demonstrate **React fundamentals**:
 
 ### 1. Clone Repository
 ```bash
-git clone <your-repo-url>
-cd assignment2
+git clone https://github.com/malapatiprasanna/react_assignment.git
+cd assignment1
+```
+### 2. Install Dependencies
+```bash
+npm install
+```
+
+### 3. Run the Project
+```bash
+npm start
+```
+### The app will start on http://localhost:3000
+
 
 
 # Assignment 2 – User Profiles Advanced (React + Ant Design)
