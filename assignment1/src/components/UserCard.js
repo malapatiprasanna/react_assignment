@@ -1,6 +1,7 @@
 import React from 'react';
 export default function UserCard({ user }) {
-  const avatarUrl = `https://avatars.dicebear.com/v2/avataaars/${encodeURIComponent(user.username)}.svg?options[mood][]=happy`;
+  const avatarUrl = `https://api.dicebear.com/6.x/avataaars/svg?seed=${encodeURIComponent(user.username)}&mood=happy`;
+
   return (
     <div className="card mb-3" style={{ maxWidth: 700 }}>
       <div className="row g-0 align-items-center">
