@@ -16,7 +16,7 @@ The focus of this assignment is to demonstrate **React fundamentals**:
 ## 🚀 Getting Started
 
 ### 1. Clone Repository
- bash
+```bash
 git clone <your-repo-url>
 cd assignment2
 
