@@ -44,3 +44,20 @@ The same user profiles are displayed, but now with:
 - Modal form for editing user details
 - State management in parent (`App.js`) with data updates
 
+## 🚀 Getting Started
+
+### 1. Clone Repository
+```bash
+git clone https://github.com/malapatiprasanna/react_assignment.git
+cd assignment2
+```
+### 2. Install Dependencies
+```bash
+npm install
+```
+
+### 3. Run the Project
+```bash
+npm start
+```
+### The app will start on http://localhost:3000
